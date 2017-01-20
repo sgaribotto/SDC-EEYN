@@ -1,0 +1,436 @@
+/*@media screen {*/
+	html, body { 
+		height: 100%;
+		
+		font-family: arial, sans-serif;
+		font-size:.9em;
+		text-align:justify;
+		margin-top:35px;
+	}
+	
+	.print-only {
+		display:none;
+	}
+	
+	input, select, button, textarea {
+		border-radius:5px;
+		margin:5px;
+		padding:5px;
+	}
+	
+	div.ingreso {
+		float:right;
+		width:25%;
+		background-color:#F9F9F9;
+		border-radius:5px;
+		padding:1.5%;
+		display:inline-block;
+		min-height:90%;
+		/*margin-top:50px;*/
+	}
+	
+	fieldset.ingreso {
+		margin:40% auto;
+		width:260px;
+		border:1px solid gray;
+		border-radius:5px;
+		padding:10px;
+	}
+	
+	legend.ingreso {
+		background-color:#CCCCCC;
+		color:#fff;
+		border-radius:5px;
+		padding:5px;
+	}
+	
+	input.ingreso {
+		padding: 5px 5px 5px 21px;
+		width: 160px;
+		margin:5px auto;
+		border-radius:5px;
+		display:block;
+	}
+	
+	div.textoLateral {
+		float:left;
+		width:65%;
+		
+		border-radius:5px;
+		padding:1.5%;
+		display:inline-block;
+		min-height:90%;
+		
+		/*margin-top:50px;*/
+	}
+	
+	button.ingreso {
+		margin:auto;
+		border-radius:5px;
+		padding:5px 5px 5px 21px;
+		display:block;
+		margin-top:5px;
+	}
+	
+	div.ayudaLateral, div.navLateral {
+		float:left;
+		width:20%;
+		background-color:#F9F9F9;
+		border-radius:5px;
+		padding:1.5%;
+		display:inline-block;
+		min-height:90%;
+		/*margin-top:50px;*/
+		text-align:justify;
+		position:fixed;
+		/*z-index:-1;*/
+	}
+	
+	ol.navLateral {
+		font-weight:bold;
+		
+		list-style-type: upper-roman;
+		
+	}
+	
+	ol > li {
+		text-decoration:underline;
+		font-size:1.05em;
+	}
+	
+	ul.navLateral {
+		list-style-type:disc;
+		font-size:.85em;
+		text-decoration:none;
+	}
+	
+	li.navLateral {
+		padding:5px;
+		text-align:left;
+	}
+	
+	a.navLateral {
+		text-decoration:none;
+		font-weight:none;
+	}
+	
+	a.navLateral:active {
+		color:red;
+	}
+	
+	div.formularioLateral, div.programaCompleto {
+		float:right;
+		width:71%;
+		
+		border-radius:5px;
+		padding:1.5%;
+		display:inline-block;
+		min-height:90%;
+		
+		/*margin-top:50px;*/
+	}
+	
+	#videoAyuda {
+		padding:10px;
+	}
+	
+	iframe {
+		margin: 10px auto;
+		display:block;
+	}
+	
+	fieldset.formularioLateral {
+		margin:auto;
+		width:90%;
+		padding:2%;
+		border:none;
+	}
+	
+	label.formularioLateral {
+		width:170px;
+		display:inline-block;
+		margin:5px;
+		font-weight:bold;
+		vertical-align:middle;
+	}
+	
+	input.formularioLateral[type="text"]{
+		width: 350px;
+	}
+	
+	input.formularioLateral[type="number"]{
+		width: 50px;
+	}
+	
+	textarea.formularioLateral {
+		width:90%;
+		height:300px;
+	}
+	
+	p.infoFija {
+		display:inline;
+		font-size:1.1em;
+		
+	}
+	
+	div.btnNav {
+		border-radius:30px;
+		border:4px solid white;
+		background-color:#CCCCCC;
+		text-align:center;
+		cursor:pointer;
+		display:block;
+		margin:20px auto;
+		padding:5px;
+		width:200px;
+		
+	}
+	
+	a.btnNav {
+		text-decoration:none;
+		color:black;
+	}
+	
+	embed {
+		margin:auto;
+	}
+	
+	table.plantelActual, table.agregadosCronograma {
+		width:90%;
+		margin:auto;
+	}
+	
+	p.error {
+		color:red;
+		text-align:center;
+		margin:5px auto;
+	}
+	
+	table {
+		border-collapse:collapse;
+	}
+	
+	td.formularioLateral, tr.formularioLateral {
+		padding:5px;
+	}
+	
+	select.formularioLateral {
+		width:385px;
+	}
+	
+	th.plantelActual, th.formularioLateral {
+		border-bottom:1px solid #CCC;
+	}
+
+	p.contenidosMinimos {
+		width:80%;
+	}
+	
+	li.linkPagina {
+		display:inline;
+		margin:4px;
+	}
+	
+	.botonEliminar {
+		padding:1px 2px;
+	}
+	
+	div #mostrarFormulario, div #descargarXLS, div#mostrarFiltros {
+		display:inline-block;
+		border:1px solid black;
+		background-color:#f9f9f9;
+		border-radius:10px;
+		padding:5px;
+		margin:5px;
+		font-weight:bold;
+		cursor:pointer;
+	}
+	
+	div.desplegable#formulario, div.desplegable#filtros {
+		display:none;
+	}
+	
+	label.radioSet {
+		width:14em;
+		font-size:.7em;
+		text-align:center;
+		height:6em;
+		vertical-align:middle;
+		padding:5px;
+		
+	}
+	
+	div.radioSet {
+		vertical-align:middle;
+		margin:5px;
+		padding:5px;
+	}
+	
+	.listHeaders {
+		font-size:1.2em;
+		font-weight:bold;
+		margin:5px;
+	}
+	
+	.listItem {
+		font-size:.9em;
+		font-weight:none;
+	}
+	
+	.custom-combobox-input {
+		width:300px;
+	}
+	
+	td.agregadosCronograma, th.agregadosCronograma {
+		text-align:left;
+	}
+	
+	fieldset.agregadosCronograma {
+		border:1px solid #CCC;
+		border-radius:10px;
+		margin:10px;
+	}
+	
+	legend.agregadosCronograma {
+		font-size:1.1em;
+		font-weight:bold;
+	}
+	
+	table.tablaInfo {
+		border: 1px solid #AAA;
+		width: 98.2%;
+		margin: 10px;
+		border-collapse:collapse;
+		text-align:center;
+		border-radius:10px;
+	}
+	
+	th.tablaInfo {
+		font-size:1.1em;
+		width:15%;
+		border:none;
+	}
+	
+	th.tablaInfo:first-child {
+		text-align:left;
+		padding:5px;
+		
+		
+	}
+	
+	
+	
+	tr.tablaInfo, th.tablaInfo {
+		padding:5px;
+	}
+	
+	tr.tablaInfo:nth-child(even), tr.aulasAsignadas:nth-child(even) {
+		background-color:#EEE;
+	}
+	
+	tr.blackie, td.blackie {
+		color:white;
+		background-color:#222;
+	}
+	
+	p.errorValidar {
+		display:inline-block;
+		color:red;
+		font-weight:bold;
+	}
+	
+	table.aceptarDesignacion {
+		
+		width:100%;
+	}
+	
+	td.aceptarDesignacion {
+		font-size:0.9em;
+		white-space: nowrap;
+		overflow:hidden;
+		padding:2px;
+	}
+	
+	tr.aceptarDesignacion:nth-child(odd), tr.info:nth-child(odd) {
+		background-color:#EEE;
+	}
+	
+	select.aceptarDesignacion {
+		width:175px;
+		padding:0;
+		margin:0;
+	}
+	
+	tbody.scrollableX {
+		display:block;
+		overflow-x:scroll;
+		overflow-y:hidden;
+		height:300px;
+	}
+	
+	tbody.scrollableY {
+		display:block;
+		overflow-y:scroll;
+		overflow-x:hidden;
+		height:300px;
+	}
+	
+	.hidden {
+		display:none;
+	}
+	
+	h2.navLateral {
+		font-size: 1.2em;
+		cursor: pointer;
+	}
+	
+	td.linkResumenMateria, td.masInfo {
+		cursor:pointer;
+	}
+	/*div.marcoTablaResumenMateria {
+		height: 330px;
+		overflow-x:scroll;
+	}*/
+	
+	table.materias {
+		width:100%;
+	}
+	
+	th.materias {
+		padding:5px;
+	}
+	
+	tr.subtitulo {
+		background-color:#000;
+		color:#FFF;
+		font-size:1em;
+	}
+	
+	ul.ui-autocomplete {
+		width:600px;
+	}
+	
+	h4 {
+		text-decoration:underline;
+		font-size:1.1em;
+	}
+	
+	
+/*}*/
+
+@media print {
+	.no-print {
+		display: none;
+	}
+	
+	.print-only {
+		display:initial;
+	}
+	
+	.logo-print {
+		position:absolute;
+		right: 10px;
+		top:10px;
+		height:20px;
+	}
+}

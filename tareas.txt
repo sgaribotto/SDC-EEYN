@@ -1,0 +1,5 @@
+﻿TAREAS
+
+- Hacer la página de selección de materia.
+- Ver con Marcelo qué información hay de contenidos mínimos.
+- Ver que otra información se puede dar precargada.

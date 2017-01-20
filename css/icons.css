@@ -1,0 +1,82 @@
+@media screen {
+	
+	input[class*="icon"], select[class*="icon"], button[class*="icon"], option[class*="icon"]  {
+		background-position:4px;
+		background-repeat:no-repeat;
+		background-size:16px;
+		padding:5px 5px 5px 25px;
+		
+	}
+	
+	.iconUser {
+		background-image:url("../images/icons/user.png");
+	}
+	
+	.iconPassword {
+		background-image:url("../images/icons/key.png");
+	}
+		
+	.iconIngreso {
+		background-image:url("../images/icons/log-in.png");
+	}
+	
+	.iconMateria, .iconcorrelatividades, .iconCarrera {
+		background-image:url("../images/icons/materia.png");
+	}
+	
+	.iconAgregar {
+		background-image:url("../images/icons/agregar.png");
+	}
+	
+	.iconDocente, .iconplantel {
+		background-image:url("../images/icons/docente.png");
+	}
+	
+	.iconGuardar {
+		background-image:url("../images/icons/guardar.png");
+	}
+	
+	.iconLibro, .iconbibliografiaoptativa, .iconbibliografiaobligatoria, .iconPlan {
+		background-image:url("../images/icons/libro.png");
+	}
+	
+	.iconEliminar {
+		background-image:url("../images/icons/eliminar.png");
+	}
+	
+	.iconunidadestematicas {
+		background-image:url("../images/icons/pencil.png");
+	}
+	
+	.iconFecha, .iconCuatrimestre {
+		background-image:url("../images/icons/fecha.png");
+	}
+	
+	.iconId, .iconNombre, .iconCod {
+		background-image:url("../images/icons/id.png");
+	}
+	
+	.iconContinuar {
+		background-image:url("../images/icons/continuar.png");
+	}
+	
+	.iconUnidad {
+		background-image:url("../images/icons/unidad.png");
+	}
+	
+	.iconPaginas {
+		background-image:url("../images/icons/paginas.png");
+	}
+	
+	.iconAutor {
+		background-image:url("../images/icons/autor.png");
+	}
+	
+	.iconEditorial {
+		background-image:url("../images/icons/editorial.png");
+	}
+	
+	.iconPercentage, .iconActivo, .iconPasivo {
+		background-image:url("../images/icons/percentage.png");
+	}
+}
